@@ -1,0 +1,54 @@
+.sign-form {
+  background-color: var(--white);
+  width: 40rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.sign-form h3 {
+  margin-bottom: 2rem;
+}
+
+.form-control {
+  padding: 10px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--background);
+  border: none;
+  border-radius: 10px;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.form-options {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-options span {
+  font-size: 14px;
+}
+
+.form-options button {
+  font-weight: 700;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-self: end;
+}
+
+.form-options button:hover {
+  background-color: var(--blue-hover);
+}
+
+.form-options span {
+  cursor: pointer;
+}

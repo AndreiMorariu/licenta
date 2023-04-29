@@ -1,0 +1,76 @@
+.chatbox {
+  height: 100%;
+  position: relative;
+}
+
+.chatbox .header {
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.chatbox .user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--gray);
+}
+
+.messages {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: scroll;
+}
+
+.sent {
+  background-color: var(--blue);
+  margin-left: auto;
+  width: 20%;
+  padding: 10px;
+  border-radius: 20px;
+  color: var(--white);
+}
+
+.recieved {
+  background-color: var(--background);
+  margin-right: auto;
+  width: 20%;
+  padding: 10px;
+  border-radius: 20px;
+  color: var(--black);
+}
+
+.message-text {
+}
+
+.message-time {
+  font-size: 12px;
+}
+
+.send-text {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.send-button {
+  font-weight: 700;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: var(--blue-hover);
+}

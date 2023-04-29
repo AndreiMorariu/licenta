@@ -1,0 +1,34 @@
+.stat-card {
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.stat-card h3 {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+  font-size: 26px;
+}
+
+.temperature {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.stat img {
+  width: 100px;
+  margin: 2rem auto;
+}
+
+.stat-card .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.time {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}

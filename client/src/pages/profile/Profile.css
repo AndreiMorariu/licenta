@@ -1,0 +1,11 @@
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
+}
+
+.main-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

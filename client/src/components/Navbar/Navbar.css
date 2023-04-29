@@ -1,0 +1,19 @@
+.navbar {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-icons svg {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.nav-icons svg:hover {
+  color: var(--blue-hover);
+}

@@ -1,0 +1,20 @@
+.select-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.save-changes {
+  margin: 0 auto;
+  font-weight: 700;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-self: end;
+}
+
+.save-changes:hover {
+  background-color: var(--blue-hover);
+}

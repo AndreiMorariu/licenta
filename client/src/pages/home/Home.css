@@ -1,0 +1,11 @@
+.homepage {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .homepage {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,52 @@
+.followers-card {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+h3 {
+  text-align: center;
+}
+
+.followers-card ul {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.follower {
+  display: flex;
+}
+
+.follower-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.follower-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.follower-username {
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.followers-follow-btn {
+  margin-left: auto;
+  padding: 10px 20px;
+  align-self: center;
+  border-radius: 10px;
+  color: var(--white);
+  font-weight: 700;
+  background-color: var(--black);
+}
+
+.followers-follow-btn:hover {
+  background-color: var(--black-hover);
+}

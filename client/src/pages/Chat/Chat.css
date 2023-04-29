@@ -1,0 +1,38 @@
+.chat {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+  gap: 3rem;
+}
+
+.chat .right-side {
+  background-color: var(--white);
+  border-radius: 20px 20px 0 0;
+  padding: 1rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.chat .left-side {
+  background-color: var(--white);
+  border-radius: 20px 20px 0 0;
+  padding: 1rem;
+}
+
+.left-side h3 {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.chat-container {
+  height: 100%;
+}
